@@ -1,0 +1,40 @@
+.banner{
+  width: 100%;
+  height: 600px;
+  background-image: url("../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1{
+  color: white;
+  font-weight: bold;
+}
+
+.banner p{
+  color: rgba(255,255,255,.7);
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.btn-apply{
+  color:white;
+  font-size: 15px;
+  font-weight:lighter;
+  background-color: #1EDD88;
+  border-radius: 50px;
+  padding: 15px 30px;
+
+}
+
+.banner a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+
